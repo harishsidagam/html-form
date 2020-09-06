@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div align="center" id="form">
+	<h1 style="text-decoration:underline; color: tomato;" >SIGNUP-FORM</h1>
+	<p>Fill the requirements below: </p>
+<form  method="POST" data-netlify="true">
+<label>First Name:</label>
+<input type="text" placeholder="Enter First Name" required><br><br>
+<label>Last Name:</label>
+<input type="text" placeholder="Enter Last Name" required><br><br>
+<label>Phone Number:</label>
+<input type="tel" placeholder="Enter Phone Number" pattern="[0-9]{10}" required><br><br>
+<label>Email:</label>
+<input type="email" placeholder="Enter Email" required><br><br>
+<label>Password :</label>
+<input type=password placeholder="Enter Password" pattern="{8}" required><br><br>
+<label>Gender :</label>
+<input type="radio" value="male" name="gender"required >Male
+<input type="radio"value="female" name="gender">Female
+<input type="radio" value="other" name="gender">Other<br><br>
+<label>DOB :</label>
+<input type="date" required><br><br>
+<input type="checkbox" required> <span>I Agree all the <a href="terms.html">terms & Policy.</a></span><br><br>
+<div data-netlify-recaptcha="true"></div>
+<button>SignUp</button>
+</form>
+</div>
+</body>
+</html>

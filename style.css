@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image:url("aa.png");
+  background-size: cover;
+}
+
+#form{
+  
+  margin :auto;
+ 
+  background-color: white;
+  height: 650px;
+  width:50% ;
+  
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+}
+input{
+      
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-collapse: collapse;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    
+    opacity: 0.9;
+  }
+  button:hover {
+    opacity:1;
+  }
+  label{
+    width:110px;
+    text-decoration: bold;
+    display: inline-block;
+    text-align: right;
+  }
