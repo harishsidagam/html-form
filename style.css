@@ -5,7 +5,13 @@ body{
     background-image:url("aa.png");
     }
 
-
+@media only screen and (max-width: 600px) {
+  body {
+      margin:0px;
+    padding:0px;
+     background-image:url("aa.png");
+  }
+}
 #form{
   
   margin :auto;
@@ -14,6 +20,13 @@ body{
   height: auto;
   width:50% ;
   
+}
+@media only screen and (max-width: 600px) {
+  margin :auto;
+   background-size: 100% 100%;
+  background-color: white;
+  height: auto;
+  width:50% ;
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
